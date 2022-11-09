@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-gcloud beta container --project "asserted-dev" clusters create "dev-cluster" \
+gcloud beta container --project "covidbot" clusters create "dev-cluster" \
     --zone "us-central1-c" \
     --release-channel "regular" \
     --machine-type "e2-small" \
