@@ -31,14 +31,14 @@ require_clean_work_tree () {
 
 require_clean_work_tree
 
-NAME=$(cat package.json | jq .name -r | sed -e 's/@ehacke\///g')
+NAME=$(cat package.json | jq .name -r | sed -e 's/@gnom1gnom\///g')
 
 docker pull node:latest
 
 suffix=$(git rev-parse --short HEAD)
 
-latestTag="ehacke/${NAME}:latest"
-tag="ehacke/${NAME}:${suffix}"
+latestTag="gnom1gnom/${NAME}:latest"
+tag="gnom1gnom/${NAME}:${suffix}"
 
 echo "Building and pushing ${tag}"
 

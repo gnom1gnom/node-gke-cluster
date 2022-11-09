@@ -28,7 +28,7 @@ spec:
         type: single
     spec:
       containers:
-        - image: ehacke/redis:5.0
+        - image: gnom1gnom/redis:5.0
           livenessProbe:
             exec:
               command:

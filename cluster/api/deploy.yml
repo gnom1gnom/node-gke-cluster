@@ -45,7 +45,7 @@ spec:
       - envFrom:
           - configMapRef:
               name: api-env
-        image: ehacke/mock-api:03d5a89
+        image: gnom1gnom/mock-api:03d5a89
         imagePullPolicy: Always
         livenessProbe:
           httpGet:

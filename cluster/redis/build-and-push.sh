@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-IMAGE_SCOPE=ehacke
+IMAGE_SCOPE=gnom1gnom
 IMAGE_NAME=redis
 VERSION=5.0
 

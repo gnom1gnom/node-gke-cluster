@@ -6,7 +6,7 @@ cluster with Node microservices in mind.
 
 ## Sponsor 
 
-![asserted.io](https://raw.githubusercontent.com/ehacke/node-gke-cluster/master/images/logo.png)
+![asserted.io](https://raw.githubusercontent.com/gnom1gnom/node-gke-cluster/master/images/logo.png)
 
 [asserted.io - Test in Prod](https://asserted.io)
 
