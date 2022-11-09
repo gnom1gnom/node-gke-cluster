@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-gcloud beta container --project "covidbot" clusters create "dev-cluster" \
+gcloud beta container --project "diacovidbot" clusters create "dev-cluster" \
     --zone "us-central1-c" \
     --release-channel "regular" \
     --machine-type "e2-small" \
@@ -17,4 +17,5 @@ gcloud beta container --project "covidbot" clusters create "dev-cluster" \
     --max-unavailable-upgrade 0 \
     --autoscaling-profile optimize-utilization \
     --enable-shielded-nodes \
+    --shielded-integrity-monitoring \
     --shielded-secure-boot
