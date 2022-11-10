@@ -1,4 +1,4 @@
-apiVersion: extensions/v1beta1
+apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: api-ingress
@@ -9,6 +9,8 @@ metadata:
     networking.gke.io/managed-certificates: api-certificate
     cloud.google.com/backend-config: '{"default": "api-backend"}'
 spec:
-  backend:
-    serviceName: api
-    servicePort: 80
+  defaultBackend:
+    service:
+      name: 'api'
+      port:
+        number: 80
