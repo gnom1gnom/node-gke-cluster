@@ -6,7 +6,7 @@ metadata:
   annotations:
     nginx.org/websocket-services: api
     kubernetes.io/ingress.global-static-ip-name: test-api-ip
-    networking.gke.io/managed-certificates: api-certificate
+    # networking.gke.io/managed-certificates: api-certificate
     cloud.google.com/backend-config: '{"default": "api-backend"}'
 spec:
   defaultBackend:
