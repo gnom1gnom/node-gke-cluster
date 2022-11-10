@@ -1,4 +1,4 @@
-# Kubernetes Cluster for a NodeJS API with Socket.io and automatic SSL
+ # Kubernetes Cluster for a NodeJS API with Socket.io and automatic SSL
 
 As a disclaimer, I'm not claiming this is a perfect fit for everyone. Different applications have different technical 
 requirements, and different uptime or availability standards. But I aim to outline the basics for an inexpensive GKE 
